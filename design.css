@@ -1,0 +1,98 @@
+body{
+    background-color:#1c2a44;
+    height: auto;
+}
+.whole{
+display:flex;
+}
+.part-1{
+    width: 200px;
+    height: 1230px;
+    margin-left:-5px;
+    background-color:black;
+}
+
+.part-2{
+ width: 1320px;
+ height:1200px;
+ padding:15px;
+background-color:rgba(31, 76, 209,0.4);
+}
+
+.dp{
+    width: 150px;
+    height: 150px;
+    border-radius: 140px;
+}
+.big{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.about{
+    border-radius: 300px;
+    display:flex;
+    justify-content:space-between;
+    background-color:#4c7ee0;
+    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/002/018/246/original/abstract-colorful-pastel-gradient-background-free-video.jpg");
+    
+}
+
+.abouthead{
+    color: antiquewhite;
+    margin-left:180px;
+    margin-top:50px;
+}
+ .ceriti{
+  display: flex;
+  justify-content: space-around;
+ 
+} 
+.sub{
+    width: 300px;
+    height: 300px;
+ }
+.cert{
+    font-size:30px;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+.edu{
+    display:flex;
+    justify-content: space-around;
+    justify-items: auto;
+ }
+.edusub{
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    border:1px  solid #18181B;
+}
+.eduhead{
+    color:antiquewhite;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.contact{
+    width:1320px;
+    margin-left: -190px;
+    margin-top:60px;
+    height: 130px;
+    background-color: #099fff;
+}
+.call{
+    margin-top:-180px;
+    margin-left:270px;
+}
+.social{
+    margin-top: -60px;
+    margin-left:300px ;
+    display: flex;
+    justify-content:space-around; 
+}
+.subimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
