@@ -58,6 +58,10 @@ background-color:rgba(31, 76, 209,0.4);
     font-family: sans-serif;
     color: antiquewhite;
 }
+.tools{
+    display: flex;
+    justify-content: space-around;
+}
 .edu{
     display:flex;
     justify-content: space-around;
@@ -74,23 +78,38 @@ background-color:rgba(31, 76, 209,0.4);
     font-size: 30px;
     font-family: sans-serif;
 }
-.contact{
-    width:1320px;
-    margin-left: -190px;
-    margin-top:60px;
+.part-3{
+    margin-top: 3px;
+    margin-left: -5px;
     height: 130px;
-    background-color: #099fff;
+    background-color: #099ff1;
+    display: flex;
 }
-.call{
-    margin-top:-180px;
-    margin-left:270px;
+.lo{
+    display: flex;
+    justify-items: left;
+
+  }
+.loca
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px; 
+    margin-left: 30px;
+}
+.cal{
+   margin-top: 65px;
+   margin-left: 50px;
+
+}
+.num{
+   margin-top: -35px;
+   margin-left:102px ;
 }
 .social{
-    margin-top: -60px;
-    margin-left:300px ;
-    display: flex;
-    justify-content:space-around; 
-}
+    display:flex;
+    margin-left: 210px;
+  }
 .subimg{
     width: 50px;
     height: 50px;
