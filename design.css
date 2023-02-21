@@ -1,6 +1,25 @@
+*{
+    scroll-behavior: smooth;
+}
 body{
     background-color:#1c2a44;
     height: auto;
+}
+.header{
+    height: 8vh;
+    margin-top:-1vh;
+    background-color: #1c2a44;
+    display: flex;
+   justify-content: space-between;
+}
+.headelements{
+text-align: center;
+margin-top: 2vh;
+font-size: larger;
+color: antiquewhite;
+}
+a{
+    text-decoration: none;
 }
 .whole{
 display:flex;
@@ -9,14 +28,14 @@ display:flex;
     width: 200px;
     height: 1230px;
     margin-left:-5px;
-    background-color:black;
+    margin-top: 5vh;
 }
 
 .part-2{
- width: 1320px;
- height:1200px;
- padding:15px;
-background-color:rgba(31, 76, 209,0.4);
+    margin-top:5vh;
+    width: 80vw;
+    height:250vh;
+    background-color:#1c2a44
 }
 
 .dp{
@@ -34,9 +53,7 @@ background-color:rgba(31, 76, 209,0.4);
     border-radius: 300px;
     display:flex;
     justify-content:space-between;
-    background-color:#4c7ee0;
-    background-image:url("https://static.vecteezy.com/system/resources/thumbnails/002/018/246/original/abstract-colorful-pastel-gradient-background-free-video.jpg");
-    
+    border: 1px solid #099ff1;   
 }
 
 .abouthead{
@@ -59,8 +76,7 @@ background-color:rgba(31, 76, 209,0.4);
     color: antiquewhite;
 }
 .tools{
-    display: flex;
-    justify-content: space-around;
+    color: antiquewhite;
 }
 .edu{
     display:flex;
@@ -68,22 +84,42 @@ background-color:rgba(31, 76, 209,0.4);
     justify-items: auto;
  }
 .edusub{
-    width: 250px;
-    height: 250px;
+    width: 20vw;
+    height: 35vh;
     padding: 20px;
-    border:1px  solid #18181B;
+    box-shadow: #1c2a44;
+    border: 1px solid #099ff1;
 }
 .eduhead{
     color:antiquewhite;
     font-size: 30px;
     font-family: sans-serif;
 }
-.part-3{
-    margin-top: 3px;
-    margin-left: -5px;
-    height: 130px;
-    background-color: #099ff1;
+.pro{
     display: flex;
+    justify-content: space-around;
+    justify-items: auto;
+}
+.proj{
+    width: 30vw;
+    height: 43vh;
+    padding: 5px;
+    border: 1px solid #099ff1;
+}
+.prohead{
+    font-size: larger;
+    color:antiquewhite;
+    text-align: center;
+}
+.para{
+    color:antiquewhite;
+}
+.part-3{
+    height: 130px;
+    background-color: #004970;
+    display: flex;
+    margin-left:-1vh;
+    margin-bottom: -1.3vh;
 }
 .lo{
     display: flex;
