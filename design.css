@@ -6,15 +6,17 @@ body{
     height: auto;
 }
 .header{
-    height: 8vh;
+    height: 10vh;
     margin-top:-1vh;
+    margin-left: -2vh;
     background-color: #1c2a44;
     display: flex;
-   justify-content: space-between;
+    background-color: #004970;
+   justify-content: space-evenly;
 }
 .headelements{
 text-align: center;
-margin-top: 2vh;
+margin-top: 3vh;
 font-size: larger;
 color: antiquewhite;
 }
